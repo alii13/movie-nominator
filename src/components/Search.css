@@ -1,0 +1,29 @@
+.search__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex:0.1;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.input__container{
+    display: flex;
+    height:45px;
+    flex: 0.8;
+}
+input{
+    border: 1px solid red;
+    width:70%;
+    padding: 10px;
+    font-size:20px;
+    border-radius: 5px;
+}
+.input__button{
+    width: 6em;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-left:20px;
+    border: none;
+    cursor: pointer;
+}

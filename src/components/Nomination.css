@@ -1,0 +1,29 @@
+.nominations{
+    background-color: lightgray;
+    flex:0.5;
+    padding:30px;
+}
+.nominations__list{
+    margin-top: 30px;
+    font-size: 1.6em;
+}
+ ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.list__item{
+    display: flex;
+    align-items: center;
+}
+.item__btn{
+    background: rgb(214, 214, 221);
+    width: fit-content;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(34, 102, 248);
+}
+.item__btn:focus{
+    outline: none;
+    border: none;
+
+}
