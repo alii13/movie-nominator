@@ -1,29 +1,56 @@
-.nominations{
-    background-color: lightgray;
-    flex:0.5;
-    padding:30px;
-}
-.nominations__list{
-    margin-top: 30px;
-    font-size: 1.6em;
-}
- ul li{
-    list-style-type: none;
-    padding: 10px;
-}
-.list__item{
-    display: flex;
-    align-items: center;
-}
-.item__btn{
-    background: rgb(214, 214, 221);
-    width: fit-content;
-    padding: 6px;
-    border-radius: 5px;
-    border: 1px solid rgb(34, 102, 248);
-}
-.item__btn:focus{
-    outline: none;
-    border: none;
+.nominations {
+  border: 1px solid black;
+  border-radius: 5px;
+  flex: 0.5;
+  position: relative;
 
+  padding: 30px;
+  background-color: #fff;
+}
+.nominations__title {
+  position: absolute !important;
+  left: 23%;
+  color: gray;
+  top: 50%;
+}
+.nominations__list {
+  margin-top: 30px;
+  font-size: 1.6em;
+}
+ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+.list__item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.nomination_item__btn {
+  background: rgb(214, 214, 221);
+  width: fit-content;
+  padding: 6px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #dc3545;
+}
+.nomination_item__btn:focus {
+  outline: none;
+  border: none;
+}
+.share__buttons {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 10%;
+}
+.share__button {
+  width: 4em;
+  height: 4em;
+}
+.share__button:hover {
+  transform: scale(1.3);
 }

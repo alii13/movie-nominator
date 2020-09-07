@@ -4,6 +4,8 @@
   flex-direction: column;
   width: 70vw;
   min-height:90vh;
-  background-color: red;
-
+  margin-bottom: 30px;
+}
+.title{
+  padding: 0.6em;
 }
