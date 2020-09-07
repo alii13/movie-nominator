@@ -1,6 +1,11 @@
 .results{
     display: flex;
     margin-top:10px;
-
    flex: 1;
+}
+@media(max-width:576px){
+    .results{
+        flex-direction: column;
+    }
+
 }

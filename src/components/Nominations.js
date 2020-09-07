@@ -30,10 +30,11 @@ function Nominations(props) {
             share = localStorgaeData.map((e, i) => e.movietitle);
             shareValue = share.join(",");
         } else {
+            let localStorageData=[]
             localStorgaeData = localStorage.getItem("Object");
             localStorgaeData = JSON.parse(localStorgaeData);
             console.log(localStorgaeData);
-            share = localStorgaeData.map((e, i) => e.movietitle);
+            share = (localStorageData.length<1)?([]):localStorgaeData.map((e, i) => e.movietitle);
             shareValue = share.join(",");
         }
     }, [nominations]);

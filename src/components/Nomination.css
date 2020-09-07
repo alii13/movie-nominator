@@ -54,3 +54,13 @@ ul li {
 .share__button:hover {
   transform: scale(1.3);
 }
+@media(max-width:576px){
+    .share__buttons{
+        position: unset;
+        margin-top: 2em;
+    }
+    .list__item {
+        margin-top:25px
+      }
+
+}
